@@ -8,7 +8,7 @@ function specificWordInMultipleFiles() {
     const initWord = 'old'; /* Words you want to rename => In the example the files contain the word "old" */
     const newWord = 'new'; /* New word that replaces the old ones */
     const dirFiles = fs.readdirSync(path);
-    const acceptedFiles = dirFiles.filter(files => files.includes(initWord))
+    const acceptedFiles = dirFiles.filter(files => files.includes(initWord));
     dirFiles.forEach(file => {
         if (acceptedFiles.includes(file)) {
             const initialFile = path + '/' + file;

@@ -7,6 +7,6 @@ In it, you can rename several files in the same folder that contain the same wor
 ## How to run
 node + javascript file name
 
-### Warning
+## Warning
 You need to have Node.js installed on your machine to be able to run this script.
 
